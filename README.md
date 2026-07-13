@@ -81,7 +81,7 @@ The following base parameters are used throughout the implementations:
 | Time to Maturity (\(T\)) | 0.25 years (3 months) |
 | Strike (\(K\)) | 80.00 (ATM) |
 | **Heston Parameters** | |
-| Initial Variance (\(\nu_0\)) | 0.032 |
+| Initial Variance $ (\(\nu_0\)) $| 0.032 |
 | Mean Reversion (\(\kappa_\nu\)) | 1.85 |
 | Long-Term Variance (\(\theta_\nu\)) | 0.045 |
 | Correlation (\(\rho\)) | -0.30 / -0.70 |

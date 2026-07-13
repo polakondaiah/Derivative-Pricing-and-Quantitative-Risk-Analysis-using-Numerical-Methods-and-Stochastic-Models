@@ -64,43 +64,42 @@ The following base parameters are used throughout the implementations:
 
 | Parameter | Value |
 | :--- | :--- |
-| Initial Stock Price (\(S_0\)) | 100.00 |
-| Risk-Free Rate (\(r\)) | 5.00% |
-| Volatility (\(\sigma\)) | 20.00% |
-| Time to Maturity (\(T\)) | 0.25 years (3 months) |
-| Strike (\(K\)) | 100.00 (ATM) |
+| Initial Stock Price ($S_0$) | 100.00 |
+| Risk-Free Rate ($r$) | 5.00% |
+| Volatility ($\sigma$) | 20.00% |
+| Time to Maturity ($T$) | 0.25 years (3 months) |
+| Strike ($K$) | 100.00 (ATM) |
 | Binomial Steps | 200 (European), 100 (American) |
 
 ### Part II: Stochastic Volatility & Jump Models
 
 | Parameter | Value |
 | :--- | :--- |
-| Initial Stock Price (\(S_0\)) | 80.00 |
-| Risk-Free Rate (\(r\)) | 5.50% |
-| Volatility (\(\sigma\)) | 35.00% |
-| Time to Maturity (\(T\)) | 0.25 years (3 months) |
-| Strike (\(K\)) | 80.00 (ATM) |
+| Initial Stock Price ($S_0$) | 80.00 |
+| Risk-Free Rate ($r$) | 5.50% |
+| Volatility ($\sigma$) | 35.00% |
+| Time to Maturity ($T$) | 0.25 years (3 months) |
+| Strike ($K$) | 80.00 (ATM) |
 | **Heston Parameters** | |
-| Initial Variance $ (\(\nu_0\)) $| 0.032 |
-| Mean Reversion (\(\kappa_\nu\)) | 1.85 |
-| Long-Term Variance (\(\theta_\nu\)) | 0.045 |
-| Correlation (\(\rho\)) | -0.30 / -0.70 |
+| Initial Variance ($\nu_0$) | 0.032 |
+| Mean Reversion ($\kappa_\nu$) | 1.85 |
+| Long-Term Variance ($\theta_\nu$) | 0.045 |
+| Correlation ($\rho$) | -0.30 / -0.70 |
 | **Merton Parameters** | |
-| Jump Intensity (\(\lambda\)) | 0.25 / 0.75 |
-| Mean Jump Size (\(\mu_J\)) | -0.50 |
-| Jump Volatility (\(\delta_J\)) | 0.22 |
+| Jump Intensity ($\lambda$) | 0.25 / 0.75 |
+| Mean Jump Size ($\mu_J$) | -0.50 |
+| Jump Volatility ($\delta_J$) | 0.22 |
 
 ### Part III: Dynamic Delta Hedging
 
 | Parameter | Value |
 | :--- | :--- |
-| Initial Stock Price (\(S_0\)) | 180.00 |
-| Risk-Free Rate (\(r\)) | 2.00% |
-| Volatility (\(\sigma\)) | 25.00% |
-| Time to Maturity (\(T\)) | 0.50 years |
-| Strike (\(K\)) | 182.00 |
+| Initial Stock Price ($S_0$) | 180.00 |
+| Risk-Free Rate ($r$) | 2.00% |
+| Volatility ($\sigma$) | 25.00% |
+| Time to Maturity ($T$) | 0.50 years |
+| Strike ($K$) | 182.00 |
 | Binomial Steps | 25 (American Put) |
-
 ---
 
 ## ⚙️ Installation

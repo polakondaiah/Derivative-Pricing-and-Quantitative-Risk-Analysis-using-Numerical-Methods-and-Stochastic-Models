@@ -174,11 +174,4 @@ For comprehensive tables, graphs, and analysis, see the PDF reports in the `repo
     ├── DERIVATIVE_PRICING__numerical_methods.pdf
     └── DERIVATIVE_PRICING__Stochastic__Models.pdf
 ```
-## ⚙️ Installation
 
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/yourusername/derivative-pricing-numerical-methods.git
-cd derivative-pricing-numerical-methods
-pip install -r requirements.txt
